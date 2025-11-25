@@ -20,7 +20,7 @@ function setup() {
       }
       if (((i + j) % 2 === 1) && (4 < j)) {
         fill(0);
-        ellipse(x + s / 2, y + s / 2, d, d);
+        ellipse(x + s / 2, y + s / 2, d);
       }
     }
   }
